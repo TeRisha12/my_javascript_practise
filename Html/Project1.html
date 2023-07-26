@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const person={
+            name:"pratima",
+            eyecolor:"brown"
+        };
+        for(let a in person){
+            console.log(person[a]);
+        }
+        let studentName=person.name.split("");
+        console.log(studentName[0]);
+        let text="Please visit microsoft!";
+        let newtext=text.replace("microsoft","W3schools");
+        console.log(newtext);
+        let Animals=["dog","cat","Duck"];
+        console.log(Animals[2]);
+        let animalas=[];
+        animalas[0]="Eagle";
+        console.log(Animals);
+        Animals[4]="tiger";
+        console.log(Animals);
+        console.log(Animals[2]);
+        let Ani =[6];
+        let allAni=Animals.concat('ani');
+        console.log(allAni);
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function detectClick(param){
+            //param is what call callback function
+            if( typeof param!=="function"){
+         throw new error("Parameter is not function");
+            }
+            document.onclick=param;
+
+        }
+        function callback(){
+            console.log("clicked....");
+
+        }
+        detectClick(callback);
+
+        </script>
+    
+</body>
+</html>
